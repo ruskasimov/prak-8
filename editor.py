@@ -11,7 +11,7 @@ class Editor:
     def reset(self):
         self.objects = []
         self.groups = []
-        self.selection = []
+        self.selection = None
         
     def create_circle(self, x, y, rad):
         self.objects.append(circle.Circle(x, y, rad))
